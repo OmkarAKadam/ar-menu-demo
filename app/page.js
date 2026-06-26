@@ -8,28 +8,27 @@ const fraunces = Fraunces({ subsets: ["latin"], weight: "600" });
 const dishes = [
   {
     id: "demo-dish-1",
-    name: "Demo Dish 1",
-    price: "₹150",
+    name: "Vada Pav",
+    price: "₹40",
     isVeg: true,
-    description: "Sample description for demo purposes.",
-    modelUrl: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+    description: "Spiced potato fritter in a soft bun, served with chutney.",
+    modelUrl: "/models/vada-pav.glb",
   },
   {
     id: "demo-dish-2",
-    name: "Demo Dish 2",
-    price: "₹220",
-    isVeg: false,
-    description: "Another sample item for trying the AR menu flow.",
-    modelUrl: "https://modelviewer.dev/shared-assets/models/RobotExpressive.glb",
+    name: "Curry with Rice",
+    price: "₹120",
+    isVeg: true,
+    description: "Panner and mix vegetable curry, served with steamed rice.",
+    modelUrl: "/models/curry.glb",
   },
   {
     id: "demo-dish-3",
-    name: "Demo Dish 3",
-    price: "₹180",
+    name: "Chocolate Brownie with Vanilla Ice Cream",
+    price: "₹150",
     isVeg: true,
-    description: "A third placeholder dish with a different demo model.",
-    modelUrl:
-      "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
+    description: "Warm fudge brownie topped with a scoop of vanilla ice cream and chocolate drizzle.",
+    modelUrl: "/models/dessert.glb",
   },
 ];
 
@@ -277,3 +276,5 @@ export default function Home() {
     </main>
   );
 }
+
+
